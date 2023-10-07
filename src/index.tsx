@@ -1,11 +1,8 @@
 import React from 'react'
-import { render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import DemoApp from './DemoApp'
 import './index.css'
 
-document.addEventListener('DOMContentLoaded', function() {
-  render(
-    <DemoApp />,
-    document.body.appendChild(document.createElement('div'))
-  )
-})
+const container = document.getElementById('DemoApp');
+const root = createRoot(container!);
+root.render(<DemoApp />);

@@ -7,7 +7,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "clean": "rm -rf dist tsc"
+    "clean": "rm -rf dist tsc",
+    "start": "webpack serve"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.9",
@@ -24,7 +25,6 @@
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
-    "@types/react-dom": "^18.2.7",
     "css-loader": "^4.3.0",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",
