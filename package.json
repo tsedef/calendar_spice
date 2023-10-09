@@ -17,6 +17,7 @@
     "@fullcalendar/list": "^6.1.9",
     "@fullcalendar/react": "^6.1.9",
     "@fullcalendar/timegrid": "^6.1.9",
+    "@reduxjs/toolkit": "^1.9.7",
     "@types/react-redux": "^7.1.26",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
