@@ -1,7 +1,7 @@
 
 # FullCalendar TypeScript "Calendar Spice"
 
-This is a fully-buildable example project for FullCalendar and [TypeScript], leveraging [Webpack] and [ts-loader].
+Self-starter project: [TypeScript], [React], [Redux Toolkit], FullCalendar and leveraging [Webpack] and [ts-loader].
 
 ## Build Commands
 
