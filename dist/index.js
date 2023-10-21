@@ -34011,6 +34011,9 @@ var DemoApp = /** @class */ (function (_super) {
                         right: 'dayGridMonth,timeGridWeek,timeGridDay'
                     }, initialView: 'dayGridMonth', editable: true, selectable: true, selectMirror: true, dayMaxEvents: true, weekends: this.state.weekendsVisible, initialEvents: _event_utils__WEBPACK_IMPORTED_MODULE_1__.INITIAL_EVENTS, select: this.handleDateSelect, eventContent: renderEventContent, eventClick: this.handleEventClick, eventsSet: this.handleEvents }))));
     };
+    DemoApp.prototype.renderHeader = function () {
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: 'header-toolbar' });
+    };
     DemoApp.prototype.renderSidebar = function () {
         return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: 'demo-app-sidebar' },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: 'demo-app-sidebar-section' },

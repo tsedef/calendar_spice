@@ -10,7 +10,7 @@ const UserProfilePanel: React.FC = () => {
     const dispatch = useAppDispatch();
 
     const loadProfile = () => {
-        //simulate loading auser profile from an API
+        //simulate loading a user profile from an API
         const profileData = {
             name: 'John Doe',
             email: 'john@example.com',

@@ -22,6 +22,12 @@ const userProfileSlice = createSlice({
     },
 });
 
+const calendarSlice = createSlice({
+    name: 'calendar',
+    initialState: initialState,
+    
+})
+
 
 //SETS ACTION NAMES
 export const { setUserProfile } = userProfileSlice.actions;
@@ -35,7 +41,7 @@ be free from side-effects (http calls, timeouts) and
 they should be simple functions just to modify the state. 
 All the asynchronous code should be taken care of in the 
 actions.
-
+codign
 We have to understand that redux-toolkit 
 automatically creates actions with type and 
 payload based on the reducers that are created 
