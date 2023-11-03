@@ -1,8 +1,9 @@
 //userProfile.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import UserProfilePanel from '../components/UserProfile';
-import { UserProfile } from '../models/redux-models';
+import UserProfilePanel from '../../../components/UserProfile';
+import { UserProfile } from '../../../models/redux-models';
 
+/*namespace for separating related states. Namespaces are like modules*/
 
 //Defining user profile iniial state
 const initialState: UserProfile = {
@@ -11,9 +12,11 @@ const initialState: UserProfile = {
     interests:[],
 };
 
-const userProfileSlice = createSlice({
-    name: 'userProfile',
-    initialState: initialState,
+const userProfileNamespace = 'userProfile'
+
+const userProfileSlice = createSlice({  
+    name: userProfileNamespace,
+    initialState,//same as initalState: initialState
     reducers: {
         //these are the action types themselves (e.g.)userProfile/setUserProfile
         setUserProfile: (state, action: PayloadAction<UserProfile>) => {
